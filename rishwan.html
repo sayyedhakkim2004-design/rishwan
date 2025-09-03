@@ -1,0 +1,252 @@
+<!Doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="rishwan.css">
+</head
+<body>
+
+
+<div class="summa">
+<ul>
+<li><a class="anchor" href=#about>About<a/></li>
+<li><a class="anchor" href=#skill>Skill<a/></li>
+<li><a class="anchor" href=#project>Project<a/></li>
+<li><a class="anchor" href=#Acheivements>Acheivements<a/></li>
+<li><a class="anchor" href=#contact>Contact<a/></li>
+</ul>
+</div>
+
+
+
+<div class="profile-animation">
+<figure>
+
+<img id="format1" src="rishwan2.jpeg">
+<img id="format2" src="rishwan4.jpeg">
+<img id="format3" onClick="show()"  src="rishwan1.jpeg" title="Click Me I have 5 Faces">
+<img id="format4" src="rishwan3.jpeg">
+<img id="format5" src="rishwan5.jpeg">
+<h1 id="college" >_RISHIN_.X</h1>
+</figure>     
+</div>
+
+
+<div class="profile-pic" id="about">
+<img class="profile" src="rishwan8.png">
+
+<h2 class="cele" >CELEBRITY</h2>
+
+<strong>HI GUYS</strong>
+<b>I'M RISHWAN</b>
+<p>An Instagram Celebrity <img src="wee.png" ></p>
+
+
+<button class="btn" id="hakkim"    onClick="update()">Education</button>
+
+<h3 class="learn" id="rishwan">Learning BCA Creating Vibes  </h2>
+
+
+<button class="btn1" id="button1" onClick="change()">Skill</button>
+
+<h3 class="learn1"    id="special">Specialist In Jokes Nobody laughs At </h3>
+
+
+
+<button class="btn2" id="button2" onClick="display()">Acheivements</button>
+
+<h3 class="learn2" id="famous"   >Helmet More famous Than Riding </h3>
+
+
+</div>
+
+
+<section class="skillpage" id="skill">
+<img class="orient1" src="rishwan10.png">
+<h2>Skills</h2>
+<img class="orient" src="corelskill1.png">
+<img class="orient2" src="figma2.png">
+<img class="orient3" src="photo.png">
+<img class="orient4" src="python.png">
+<img class="orient5" src="canva.png">
+</section> 
+
+
+<div class="project1" id="project">
+<h2 >Project</h2>
+<div class="container">
+<div class="container1"><h6>CORAL DRAW</h6>
+<img src="corel1.png">
+<p>Designed a creative poster in coreldraw,combining bold typography,vibrant custom vector illustrations.the project highlights my ability to bring concepts to life visually balancing aesthetics with cleart communication.from experimenting with layouts to refining details.</div>
+<div class="container1"><h6>UI/UX DESIGNER</h6>
+<img src="ui1.png">
+<p>The goal was to make the design both eye-catching and easy to understand,similar to how UI/UX design balances aesthetics with usability.From initial concept sketches to the final vector artwork,the project demonstrates my ability to combine creativity with structiured design thinking.</div>
+<div class="container1"><h6>CONTENT CREATER</h6>
+<img src="cont.png">
+<p>created posters and graphics in CorelDraw that look cooler than my bike selfies.Mixed bright colors,catchy fonts,and a pinch of mokka humor to make every design insta-ready.The project shows how i turn random ideas into scroll-stopping visuals-even if my jokes don't stop anyone from scrolling.</div>
+</div>
+
+
+<section class="acheive1" id="Acheivements"> 
+<h2>Acheivements</h2>
+<div class="acheive">
+
+<img src="paris2.jpg">
+<img src="dubai.jpg">
+<img src="saudi.jpg">
+
+<img src="paris2.jpg">
+<img src="dubai.jpg">
+<img src="saudi.jpg">
+</div>
+</section> 
+
+<div class="last" id="contact">
+<img id="tnps" src="rishwan11.png">
+<h2 id="vera" >Varatta Maameeeeeyyyyyyyy!</h2>
+<form class="contactform"> 
+<h3>Contact Me</h3> 
+<label for="Name">Name</label>
+<input  id="arivu" type="text" id="Name" name="Name" placeholder="Enter your Name" required>
+<label for="Email">Email</label>
+<input  id="arivu1" type="Email" id="Email" name="Email" placeholder="Enter your Email ID" required >
+<label for="Message Box">Message Box</label>
+<textarea id="arivu2" rows="4" placeholder="Describe Your Message" required></textarea>
+<button id="pothu"   onClick="move()">Submit</button>
+</form>
+</div>
+
+<script>
+var sayyed=document.getElementById("hakkim");
+var ushman=document.getElementById("rishwan");
+var faisal=document.getElementById("button1");
+var kathar=document.getElementById("button2");
+var marzook=document.getElementById("special");
+var sara=document.getElementById("famous");
+
+
+
+function update(){
+//show this code//
+
+
+ushman.style.display="block"
+sayyed.style.textDecoration="underline"
+
+
+
+//hide the code//
+
+
+kathar.style.textDecoration="none"
+faisal.style.textDecoration="none"
+marzook.style.display="none"
+sara.style.display="none"
+}
+
+
+
+function change(){
+//show this code//
+
+
+
+marzook.style.display="block"
+faisal.style.textDecoration="underline"
+
+
+
+//hide the code//
+
+
+kathar.style.textDecoration="none"
+sayyed.style.textDecoration="none"
+ushman.style.display="none"
+sara.style.display="none"
+}
+
+
+function display(){
+//show this code//
+
+
+
+sara.style.display="block"
+kathar.style.textDecoration="underline"
+
+
+
+//hide the code//
+sayyed.style.textDecoration="none"
+faisal.style.textDecoration="none"
+marzook.style.display="none"
+ushman.style.display="none"
+}
+
+
+
+var box1=document.getElementById("format1");
+var box2=document.getElementById("format2");
+var box3=document.getElementById("format3");
+var box4=document.getElementById("format4");
+var box5=document.getElementById("format5");
+var box6=document.getElementById("college");
+
+function show(){
+  
+ box1.style.opacity="1";
+box2.style.opacity="1";
+box3.style.opacity="1";
+box4.style.opacity="1";
+box5.style.opacity="1";
+box3.removeAttribute("title");
+box6.style.opacity="1";
+
+}
+
+
+var book1=document.getElementById("pothu");
+var book2=document.getElementById("tnps");
+var book3=document.getElementById("arivu");
+var book4=document.getElementById("arivu1");
+var book5=document.getElementById("arivu2");
+var book6=document.getElementById("vera");
+let moved=false;
+
+function move(){
+
+if(!moved )
+{
+
+book2.style.transform="translateX(-800px)";
+book6.style.opacity="1";
+moved=true;
+} 
+else{
+book2.style.transform="translateX(0px)";
+book6.style.opacity="0";
+moved=false;
+}
+
+
+
+event.preventDefault();
+console.log(book3.value);
+console.log(book4.value);
+console.log(book5.value);
+}
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+</body>
+</html>
